@@ -1,8 +1,8 @@
 $projectName="bring-me-food-dev"
 $resourceGroupName="bring-me-food-dev-rg"
 $resourceGroupLocation = 'westeurope'
-$templateFile="./arm/azuredeploy.json"
-$templateParameterFile="./arm/azuredeploy.parameters.dev.json"
+$templateFile="./templates/azuredeploy.json"
+$templateParameterFile = "./templates/azuredeploy.parameters.dev.json"
 $deploymentName="create-environment"
 
 # Initialization:
