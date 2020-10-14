@@ -1,5 +1,5 @@
-$projectName="bring-me-food-dev-2"
-$resourceGroupName="bring-me-food-arm-dev-2-rg"
+$projectName="bring-me-food-dev"
+$resourceGroupName="bring-me-food-dev-rg"
 $resourceGroupLocation = 'westeurope'
 $templateFile="./arm/azuredeploy.json"
 $templateParameterFile="./arm/azuredeploy.parameters.dev.json"
